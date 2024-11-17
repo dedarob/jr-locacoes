@@ -19,9 +19,9 @@ public class Veiculo {
     @Column(name = "CodVeiculo")
     private Integer codVeiculo;
     @Column(name = "Marca")
-    private Integer marca;
+    private String marca;
     @Column(name = "Modelo")
-    private Integer modelo;
+    private String modelo;
     @Column(name = "AnoFabricacao")
     private String anoFabricao;
     @Column(name = "AluguelIDaluguel")
